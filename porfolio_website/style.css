@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #444145;
+  font-family: "open sans", sans-serif;
+  background-color: #e9e5e1;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(mainpicture.jpg);
+  background-size: cover;
+  display: flex;
+  position: relative;
+}
+
+/* NAV STYLE */
+nav {
+  display: flex;
+ justify-content: start;
+  gap: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 20px 50px;
+  height: 50px;
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color:white;
+}
+
+nav a:hover {
+  color: #ce7ca9;
+}
+
+/* HEADER STYLE */
+.header-container {
+  position: absolute; 
+  top: 50%;
+  left: 35%;
+  transform: translate(0%, -50%);
+  color: white; 
+
+}
+
+.header-container-inner{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 52px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.header-title span {
+  background: linear-gradient(to right, #fcc2d7, #da77f2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+
+.downloadBtn {
+  display: inline-block;
+  color: white;
+  background-color: #faa2c1;
+  font-size: 17px;
+  padding: 15px 25px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 200px; /* Set a fixed width for the button */
+  justify-self: center;
+}
+
+.downloadBtn:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  background-color: #da77f2;
+}
+
+
+
+#about-me h2,
+#projects h2,
+#skills h2,
+#contacts h2 {
+  font-size: 45px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+
+#about-me{
+  width: 70%;
+  margin: 0 auto;
+}
+
+#about-me p {
+  text-align: center;
+  padding: 0 50px;
+  line-height: 150%;
+  font-size: 19px;
+}
+
+#skills p {
+  text-align: center;
+}
+
+#skills i {
+  text-align: center;
+  font-size: 50px;
+  color: #9b527a;
+  margin: 10px; /* Avstand mellom ikonene */
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Container Styling */
+.email-container,
+.phone-container,
+.social-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header with Icon and Text */
+.info-header {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and label */
+  margin-bottom: 10px; /* Space between header and info box */
+}
+
+.info-header span {
+  font-size: 25px; /* Text size for labels */
+}
+
+/* Info Box Styling */
+.info-box {
+  text-align: center;
+}
+
+.email-info,
+.telephone-info {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Social Media Links Styling */
+.social-links {
+  display: flex;
+  justify-content: center; /* Center the social media icons */
+}
+
+.social-icon {
+  margin: 0 8px;
+  font-size: 24px; /* Size of social media icons */
+  text-decoration: none;
+  color: #9b527a; /* Icon color */
+}
+
+.social-icon:hover {
+  color: #0073b1; /* Change color on hover (example for LinkedIn) */
+}
+
+.info-header .fa-regular,
+.info-header .fa-solid,
+.info-header .fa-brands {
+  color: #9b527a; /* Default color for icons */
+}
+
+footer {
+  background-color: #444145;
+  color: white;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container p span,
+.footer-container a i {
+  color: #9b527a;
+}
+.footer-container a i {
+  padding-left: 10px;
+}
+
+.footer-container a i:hover {
+  color: white;
+}
+
+.footer-container p {
+  font-size: 15px;
+}
