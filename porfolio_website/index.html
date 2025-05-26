@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -17,6 +17,11 @@
     />
     <link rel="stylesheet"
     href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
   </head>
 
   <body>
@@ -26,6 +31,7 @@
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contacts">Contacts</a>
+        <a href="Untitled design.png"></a>
       </nav>
       <div class="header-container">
         <div class="header-container-inner">
@@ -40,34 +46,94 @@
 
     <section id="about-me">
       <h2>About me</h2>
-      <p>
-        I am a curious and engaged person, always seeking new knowledge. What
-        drives me the most is the opportunity to learn something new, which is
-        why the IT industry attracts me—there is always something new to
-        discover and master. I am a quick learner and thrive on challenges.<br />
-        <br />For me, it is especially motivating to start IT projects where I
-        don't know all the answers in advance. Seeing the result of hard work
-        when the project is completed and works as it should give a great sense
-        of accomplishment. I enjoy challenging myself and believe that it is
-        through challenges that one learns the most.<br />
-        <br />In my free time, I stay active through sports, enjoy walking in
-        nature, and immerse myself in new stories via books and audiobooks. I
-        also dedicate time to programming and exploring emerging technologies. I
-        find it exciting to dive into something new, whether it’s related to my
-        work, studies, or personal hobbies.<br />
-        I am always eager to embrace new opportunities to learn and grow, both
-        professionally and personally!
-      </p>
+      <div class="about-me-container">
+        <p>
+          I'm a curious and driven person who loves learning new things—one of
+          the main reasons I'm drawn to IT. I thrive on challenges and enjoy
+          starting projects where I don't have all the answers from the start.
+        </p>
+        <p>
+          Seeing a project come to life after hard work gives me a strong sense
+          of accomplishment. I believe that it's through challenges we grow the
+          most.
+        </p>
+        <p>
+          In my free time, I stay active through sports and nature walks, enjoy
+          books and audiobooks, and explore new technologies through
+          programming.
+        </p>
+        <p>
+          I'm always eager to take on new opportunities to learn and grow—both
+          professionally and personally.
+        </p>
+      </div>
     </section>
 
     <section id="projects">
-      <h2>My projects</h2>
-      <p>Some teext</p>
+      <h2 class="project-title">My projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3 class="project-name">Language Learning App</h3>
+
+          <p class="project-description">
+            A web application that helps users learn languages through
+            flashcards
+          </p>
+          <ul class="project-tech-list">
+            <li class="project-tech">React</li>
+            <li class="project-tech">C#</li>
+            <li class="project-tech">TypeScript</li>
+          </ul>
+          <div class="project-footer">
+            <a href="https://github.com/Bina28/LanguageLearningApp">
+              <i class="icon ph-fill ph-github-logo"></i>View on GutHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="title-container">
+            <h3 class="project-name">MixiePixie</h3>
+          </div>
+          <p class="project-description">
+            Cocktail recipe app that allows users to search for and save their
+            favorite cocktail recipes
+          </p>
+          <ul class="project-tech-list">
+            <li class="project-tech">HTML</li>
+            <li class="project-tech">CSS</li>
+            <li class="project-tech">JavaScript</li>
+            <li class="project-tech">FireBase DB</li>
+          </ul>
+          <div class="project-footer">
+            <a href="https://github.com/Bina28/mixiepixie.github.io"
+              ><i class="icon ph-fill ph-github-logo"></i>View on GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="title-container">
+            <h3 class="project-name">Order Retail App</h3>
+          </div>
+          <p class="project-description">
+            A web application that allows users to order products from a retail
+            store
+          </p>
+          <ul class="project-tech-list">
+            <li class="project-tech">Azure Functions</li>
+            <li class="project-tech">C#</li>
+            <li class="project-tech">React</li>
+          </ul>
+          <div class="project-footer">
+            <a href="https://github.com/Bina28/AzureFunctions">
+              <i class="icon ph-fill ph-github-logo"></i>View on GitHub</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="skills">
       <h2>My skills</h2>
-      <p>
+      <div>
         <i class="fa-brands fa-github"></i>
         <i class="fa-brands fa-html5"></i>
         <i class="fa-brands fa-css3-alt"></i>
@@ -77,7 +143,7 @@
         <i class="fa-brands fa-git"></i>
         <i class="fa-solid fa-database"></i>
         <i class="fa-brands fa-figma"></i>
-      </p>
+      </div>
     </section>
 
     <section id="contacts">
@@ -126,7 +192,7 @@
 
     <footer>
       <div class="footer-container">
-        <p>Copyright &copy; 2024 <span>Albina</span></p>
+        <p>Copyright &copy; 2025 <span> Albina</span></p>
         <p>
           BACK TO TOP <a href="#top"><i class="fa-solid fa-chevron-up"></i></a>
         </p>
