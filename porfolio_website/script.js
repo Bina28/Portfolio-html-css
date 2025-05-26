@@ -1,5 +1,5 @@
 document.getElementById('downloadBtn').addEventListener('click', function () {
-    fetch('CV_Albina_Diakova.pdf') // Endre til riktig sti til PDF-filen
+    fetch('CV_Albina_eng.pdf') // Endre til riktig sti til PDF-filen
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');

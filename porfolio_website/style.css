@@ -80,7 +80,7 @@ nav a:hover {
   color: #fcc2d7;
 }
 
-.downloadBtn {
+#downloadBtn {
   display: inline-block;
   color: white;
   background-color: #faa2c1;
@@ -95,7 +95,7 @@ nav a:hover {
   justify-self: center;
 }
 
-.downloadBtn:hover {
+#downloadBtn:hover {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
